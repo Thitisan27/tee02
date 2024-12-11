@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+}
+
+/* Main container */
+.hotel-card {
+  width: 1100px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 80px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 50px;
+  font-family: Arial, sans-serif;
+}
+
+/* Badge styling */
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.hotel-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.rating {
+  font-size: 16px;
+  color: #ff9800;
+}
+
+/* Address styling */
+.address {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.map-link {
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.map-link:hover {
+  text-decoration: underline;
+}
+
+/* Description box */
+.description-box {
+  border: 1px dashed #4caf50; /* กรอบล้อมรอบข้อความ */
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9fff9; /* สีพื้นหลังอ่อน */
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.more {
+  color: #1e88e5;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.more:hover {
+  text-decoration: underline;
+}
+
+/* AI Note */
+.ai-note {
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+  margin-top: 10px;
+  line-height: 1.4;
+  border-top: 1px dashed #ddd;
+  padding-top: 10px;
+}
+
+
+
+
+
+.staycation-container {
+  font-family: Arial, sans-serif;
+  width: 1100px; /* ย่อขนาดกรอบให้เล็กลง */
+  margin: 20px; /* ตั้งค่าระยะห่างจากขอบ */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  height: auto; /* ปรับความสูงอัตโนมัติตามเนื้อหา */
+  float: left; /* จัดตำแหน่งให้ด้านซ้าย */
+}
+
+.staycation-title, .staycation-subtitle {
+  padding: 10px;
+  border: 2px solid #4CAF50; /* สีเขียว */
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.staycation-services {
+  display: flex;
+  flex-direction: column; /* จัดตำแหน่งในแนวตั้ง */
+}
+
+.service-box {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.service-title {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #4CAF50; /* เพิ่มกรอบใต้หัวข้อ */
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.service-list li:before {
+  content: "✔";
+  margin-right: 10px;
+  color: #4CAF50;
+}
+
+
+
+
+
